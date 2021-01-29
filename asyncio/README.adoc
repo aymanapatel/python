@@ -1,0 +1,52 @@
+= Using Asyncio in Python 
+:toc:
+:icons: font
+
+- https://learning.oreilly.com/library/view/using-asyncio-in/9781492075325/[Book Link]
+
+
+
+== Ch1: Introducing AsyncIO
+
+
+
+== Ch2: Truth about Threads
+
+|===
+
+|Benefit| Description
+
+|Ease of reading code|
+
+|Parallelism with Shared Memory|
+
+|Know-how and existing code| 
+* Best practices available to write threads apps. 
+* A lot of existing "blocking" code depends on multithreading for concurrent application.
+
+|===
+
+
+|===
+
+|Drawback| Description
+
+|Threading is difficult|
+
+|Threads are resource intensive|
+
+|Thread affects Throughput| 
+
+|Threads are inflexible|
+
+|===
+
+
+
+
+== Ch3: Asyncio Walkthrough
+
+== Ch4: 20 Asyncio Libraries you aren't using (but ypu should)
+
+== Appendix: AsyncIO History
+
