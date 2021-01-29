@@ -1,13 +1,17 @@
 = Using Asyncio in Python 
 :toc:
+:toc-title: Table of Contents
 :icons: font
+
+> asyncIO library from Python
+
 
 - https://learning.oreilly.com/library/view/using-asyncio-in/9781492075325/[Book Link]
 
-
+- https://github.com/econchick/mayhem[Lynn Root's amazing YouTube Talk]
 
 == Ch1: Introducing AsyncIO
-
+As
 
 
 == Ch2: Truth about Threads
@@ -46,7 +50,7 @@
 
 == Ch3: Asyncio Walkthrough
 
-== Ch4: 20 Asyncio Libraries you aren't using (but ypu should)
+== Ch4: 20 Asyncio Libraries you aren't using (but you should)
 
 == Appendix: AsyncIO History
 
