@@ -1,0 +1,87 @@
+= Advanced `asyncio`: Solving Real World Production Problems
+:toc:
+:icons: font
+
+== Foundations
+
+=== Initial setup of `asyncio` service
+
+=== Boilerplate code
+
+
+
+
+== Graceful shutdowns
+
+=== What is signal handler is, why it's needed
+
+=== What signals to listen to
+
+=== Gotchas of cancelling tasks, `asyncio.shield` + shutdown behaviour
+
+== Exception Handling
+
+=== Difference between top-level exceptions and handling within other coroutins
+
+=== Avoid mistakenly swallowing/missing raised exceptions
+
+=== Making use of `loop.set_exception_handler`
+
+
+== Making threaded code `asyncio` FRIENDLY
+
+1. Calling threaded code from coroutines (aka running within a `ThreadPoolExecutor`) 
+
+2. Calling coroutines from threaded code (aka running within a `run_coroutine_threadsafe`) 
+ 
+
+== Testing `asyncio` code 
+
+
+=== Debug mode
+
+=== How to mock **coroutines**
+
+== Debugging an `asyncio` service
+
+
+
+
+=== Debug mode
+
+
+=== Tricks
+
+1. `ayncio.all_tasks` with logging
+
+2. `loop.slow_callback_duration` 
+
+3. Adding context/stack trace in default exception handler
+
+== Profiling
+
+=== Basic Profiling
+
+
+==== Profilers
+
+1. **cProfile**
+2. **strace**
+
+
+== Continous Profiling
+
+OSS 3rd party tools
+
+1. https://www.github.com/what-studip/profiling
+
+== Pycharm's `asyncio` and thread and profiler
+
+== How to properly trace a workflow/request
+
+> Forexample, Distributed tracing 
+
+
+
+
+
