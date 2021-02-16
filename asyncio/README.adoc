@@ -16,21 +16,22 @@ As
 
 == Ch2: Truth about Threads
 
+
+[cols=2*,options=header]
 |===
-
 |Benefit| Description
-
 |Ease of reading code|
-
 |Parallelism with Shared Memory|
 
-|Know-how and existing code| 
+|Know-how and existing code
+a| 
 * Best practices available to write threads apps. 
 * A lot of existing "blocking" code depends on multithreading for concurrent application.
 
 |===
 
 
+[cols=2*,options=header]
 |===
 
 |Drawback| Description
@@ -52,5 +53,20 @@ As
 
 == Ch4: 20 Asyncio Libraries you aren't using (but you should)
 
+
+
 == Appendix: AsyncIO History
 
+[cols=2*,options=header]
+|===
+|Name
+|Group
+
+|Firefox
+|Web Browser
+
+|Ruby
+|Programming Language
+
+...
+|===
